@@ -1,0 +1,61 @@
+body {
+	background-color: black;
+}
+header {
+	overflow: hidden;
+}
+html, body { 
+	overflow: hidden!important;
+}
+
+
+// * {
+// 	outline: 1px solid red;
+// }
+
+.main-wrapper{
+	overflow: hidden!important;
+}
+
+@media (max-width: 900px) {
+
+	html, body { 
+		overflow: visible!important;
+	}
+}
+
+//bullit text
+.fp-tooltip {
+	color      : $main-color !important;
+	font-family: muller !important;
+
+}
+
+//main styles
+.container {
+	max-width: 1235px;
+	margin   : 0 auto;
+	padding  : 0 15px
+}
+
+//fix safari
+#fp-nav ul li a{
+	-webkit-transform: translate3d(0,0,0);
+}
+.swiper-button-next{
+	-webkit-transform: translate3d(0,0,0);
+}
+.swiper-button-prev{
+	-webkit-transform: translate3d(0,0,0);
+}
+
+
+.safari-fix-center{
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+}
+//-webkit-transform: translate3d(0,0,0);
+
+
+

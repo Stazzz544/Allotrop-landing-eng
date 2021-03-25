@@ -1,0 +1,105 @@
+body {
+	position: relative;
+}
+
+// header {
+	// display: none;
+// 	margin-top: 20px;
+// }
+
+//выравнивание в fullscreen.js
+.fp-tableCell {
+	// vertical-align: top;
+	display: block;
+	height : 0 !important;
+
+}
+
+
+//re-useble classes
+.title {
+	font-family   : BankGothicRUSS;
+	text-align    : center;
+	font-size     : 40px;
+	line-height   : 36px;
+	font-weight   : 700;
+	letter-spacing: -.05em;
+	color         : #8c8256;
+	text-shadow: 2px 2px 10px #000000;
+}
+
+
+.discription {
+	font-size     : 28px;
+	line-height   : 41px;
+	font-weight   : 400;
+	letter-spacing: -0.025em;
+	color         : #a59b6e;
+	font-family: muller;
+	text-shadow: 2px 2px 10px #000000;
+}
+
+
+.button {
+	overflow       : hidden;
+	position       : relative;
+	display        : flex;
+	align-items    : center;
+	justify-content: center;
+	border         : $main-color 2px solid;
+	border-radius  : 7px;
+	color          : $main-color;
+	font-family    : BankGothicRUSS;
+	overflow       : hidden;
+
+}
+
+.buttonBG {
+	position  : absolute;
+	height    : 100%;
+	width     : 100%;
+	top       : 0px;
+	left      : 0px;
+	z-index   : -2;
+	opacity   : 0;
+	background: url('../img/section-1/buttons/back.png') repeat;
+}
+
+.section-bg {
+	//задний фрон секций
+	overflow: hidden;
+	position: relative;
+	height  : 100vh;
+
+	&__background {
+		display: flex;
+
+		img {
+			width     : 100%;
+			height    : 100%;
+			position  : absolute;
+			object-fit: cover;
+			top       : 0;
+			left      : 0;
+			z-index   : -2;
+		}
+	}
+}
+
+
+@media (max-width: 1537px) {
+	.discription {
+	 font-size: 17px;
+	 line-height: 25px;
+	 font-weight: 500;
+	 max-width: 733px;
+	 }
+	 .title {
+		font-size     : 30px;
+	}
+}
+@media (max-width: 900px) {
+	.section-bg {
+		height  : 100%;
+	}
+}
