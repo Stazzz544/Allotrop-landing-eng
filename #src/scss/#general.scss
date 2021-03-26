@@ -8,7 +8,7 @@ html, body {
 	overflow: hidden!important;
 }
 
-
+//instrument for serch horizontal scroll bugs
 // * {
 // 	outline: 1px solid red;
 // }
@@ -49,13 +49,12 @@ html, body {
 	-webkit-transform: translate3d(0,0,0);
 }
 
-
 .safari-fix-center{
 	display: inline-block;
 	margin: 0 auto;
 	text-align: center;
 }
-//-webkit-transform: translate3d(0,0,0);
+
 
 
 

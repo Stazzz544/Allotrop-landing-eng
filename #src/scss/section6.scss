@@ -1,7 +1,7 @@
 //section footer
 .footer {
 	overflow: hidden;
-	// background     : url('../img/section-6/bg/6.jpg') center center /cover no-repeat;
+
 	&__main-flex{
 		display: flex;
 		flex-direction: column;
@@ -24,22 +24,18 @@
 	}
 
 	&__logo {
-		background: url('../img/section-6/logo_footer_ru.png') 0 0/cover no-repeat;
+		background: url('../img/section-6/logo_footer_eng.png') 0 0/cover no-repeat;
 		height: 336px;
 		width: 363px;
 	} 
 
 	&__button {
-		// overflow: hidden;
 		position: relative;
 		margin: 0 auto;
 		margin-top: 5px;
 		width: 216px;
 		height: 62px;
 
-	}
-
-	&__text {
 	}
 
 	&__title {
@@ -74,13 +70,12 @@
 			padding-left: 7px;
 		}
 	}
+
 	&__f-gift {
 		font-family: BankGothicRUSS;
 		font-weight: 900;
 		font-size: 20px;
 	}
-}
-.footer {
 
 	&__footer {
 		padding-top: 20px;
@@ -97,9 +92,7 @@
 		justify-content: space-between;
 		margin: 0 auto;
 	}
-	&__about-left{
 
-	}
 	&__about-right{
 		width: 329px;
 		display: flex;
@@ -150,7 +143,6 @@
 	&__link6 {
 		background: url('../img/section-6/icons/6.png') center center/contain  no-repeat;
 	}
-	/////////////////////////////////////////////////////////
 	&__buttom-menu{
 		display: flex;
 		align-items: center;
@@ -178,7 +170,7 @@
 	}
 	&__item3img{
 		display: block;
-		background: url('../img/section-6/logo/logo_rus.png') center 30px /contain  no-repeat;
+		background: url('../img/section-6/logo/logo_eng.png') center 30px /contain  no-repeat;
 		height: 123px;
 		width: 116px;
 	}
@@ -211,7 +203,7 @@
 		width: 0;
 		height: 0;
 		top: 14px;
-		left: 78px;
+		left: 72px;
 		border-style: solid;
 		border-width: 7px; /* размер и форма */ 
 		border-color: #ffffff transparent transparent transparent
@@ -222,7 +214,6 @@
 .dropdown-content {
 	opacity: 0;
 	position: absolute;
-	// background-color: #f9f9f9;
 	min-width: 100px;
 	z-index: 1;
 	display: none;
@@ -238,16 +229,13 @@
 	text-align: left;
 }
 
-.dropdown-content a:hover {
-	// background-color: #ddd;
-}
-
 .show {
 	display: block;
 	opacity: 1;
 	transition: opacity 0.7s;
 	animation: language 0.2s ease-in
 }
+
 @keyframes language {
 	0% { opacity: 0 }   
 	100% { opacity: 1; }

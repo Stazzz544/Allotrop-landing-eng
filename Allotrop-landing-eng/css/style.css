@@ -5745,7 +5745,7 @@ body {
 }
 
 .footer__logo {
-  background: url("../img/section-6/logo_footer_ru.png") 0 0/cover no-repeat;
+  background: url("../img/section-6/logo_footer_eng.png") 0 0/cover no-repeat;
   height: 336px;
   width: 363px;
 }
@@ -5932,7 +5932,7 @@ body {
 
 .footer__item3img {
   display: block;
-  background: url("../img/section-6/logo/logo_rus.png") center 30px/contain no-repeat;
+  background: url("../img/section-6/logo/logo_eng.png") center 30px/contain no-repeat;
   height: 123px;
   width: 116px;
 }
@@ -5965,7 +5965,7 @@ body {
   width: 0;
   height: 0;
   top: 14px;
-  left: 78px;
+  left: 72px;
   border-style: solid;
   border-width: 7px;
   /* размер и форма */
@@ -6689,10 +6689,6 @@ body {
     background: url("../img/section-4/bg/small-no-active.png") -4px -7px/110% 120% no-repeat;
   }
 
-  .solution__mainflex tabs {
-    padding: 0 10px;
-  }
-
   .solution__flex-discription {
     width: 409px !important;
     padding-bottom: 20px;
@@ -7325,7 +7321,7 @@ body {
 
 .webp .tab__hexagon{ background: url(../img/section-4/icons/hexagon.webp) 0 0/100% 100%; }
 
-.webp .footer__logo{ background: url(../img/section-6/logo_footer_ru.webp) 0 0/cover no-repeat; }
+.webp .footer__logo{ background: url(../img/section-6/logo_footer_eng.webp) 0 0/cover no-repeat; }
 
 .webp .footer__link1{ background: url(../img/section-6/icons/1.webp) center center/contain no-repeat; }
 
@@ -7339,7 +7335,7 @@ body {
 
 .webp .footer__link6{ background: url(../img/section-6/icons/6.webp) center center/contain no-repeat; }
 
-.webp .footer__item3img{ background: url(../img/section-6/logo/logo_rus.webp) center 30px/contain no-repeat; }
+.webp .footer__item3img{ background: url(../img/section-6/logo/logo_eng.webp) center 30px/contain no-repeat; }
 
 @media (max-width: 1519px), (max-height: 956px){
 

@@ -13865,7 +13865,7 @@ new fullpage('#fullpage', {
 	autoScrolling: true,//включает поэкранный скролл
 	anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage'],
 	navigation: true,//буллиты навигации справа
-	navigationTooltips: ['Главная', 'О планете', 'Миссия', 'Особенности', 'Галерея', 'Дата релиза'],
+	navigationTooltips: ['Main', 'Planet', 'Mission', 'Features', 'Gallery', 'Release'],
 	dragAndMove: true, //разрешает скролл на мобилах пальцем
 	responsiveWidth: 900, //убераем прокрутку на определённом типе экрана
 	verticalCentered: false, //Вертикальное центрирование контента в разделах
